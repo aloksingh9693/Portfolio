@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4601bb7df7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     
+
+ <div id="header">
+    <div class="container">
+        <nav>
+              <a href="#about"><img src="logo 3.jpg" class="logo"></a>  
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>Full Stack Web Developer</p>
+            <h1>Hi, I'm  <span>Alok Singh </span><br> From Bihar</h1>
+        </div>
+    </div>
+</div>
+<!-- -------------------------------About-------------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img 2.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello there! 👋 I'm Alok Kumar Singh, I pursuing my Computer Science Engineering with a strong foundation in Java and Data Structures & Algorithms (DSA). I'm on a journey to become a versatile full-stack developer, combining my love for coding with a knack for problem-solving. I thrive on challenges and am committed to lifelong learning. Let's connect and explore the world of tech together!
+
+                    ---
+                    
+                    Feel free to personalize it further to highlight any specific projects, skills, or experiences you may have that are relevant to your career goals.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experence')">Experence</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                   <div class="tab-contants active-tab" id="skills">
+                    <ul>
+                        <li><span>WordPress</span><br>Dessigning web interfaces</li>
+                        <li><span>Full Stack Web Development</span><br>Full Stack with web Development with MERN </li>
+                        <li><span>Java developer</span><br>Backend and java Frame work with Springboot</li>
+                    </ul>
+                   </div> 
+
+                   <div class="tab-contants" id="experence">
+                    <ul>
+                        <li><span>Current</span><br>Fresher</li>
+                        <li><span>6 Month Intership</span><br>CodeSOft,OctaNet,OsisInfobyte</li>
+                        <li><span>2023 </span><br>Intership at OsisInfobyte private Limited</li>
+                        <li><span>2023</span><br>Intership at OctaNet private service for java developer</li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contants" id="education">
+                    <ul>
+                        <li><span>2019</span><br>Intermediate From Bihar Board </li>
+                        <li><span>2025</span><br>B.Tech from Chennai</li>
+                        <li><span>2027</span><br>M.Tech from IIT Madras </li>
+                    </ul>
+                   </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------------------servicers--------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>WordPress</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ab nobis quis voluptatibus hic necessitatibus recusandae? Quam laborum dolore eos?</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>full-stack Web-Development with MERN</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ab nobis quis voluptatibus hic necessitatibus recusandae? Quam laborum dolore eos?</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Java developer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ab nobis quis voluptatibus hic necessitatibus recusandae? Quam laborum dolore eos?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===========================portfoio============================= -->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>SChool Web-site</h3>
+                    <p>For visit my site all the link of my site is given below in link buttom 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Movies Site</h3>
+                    <p>For visit my site all the link of my site is given below in link buttom 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping site</h3>
+                    <p>For visit my site all the link of my site is given below in link buttom </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ==========================Contact=================== -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>aloksingh0924@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9693738157</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100042080843020&mibextid=ZbWKwL"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Alok__Singh___"><i class="fa-brands fa-twitter"target="_blank"></i></a>
+                        <a href="https://www.instagram.com/rajput_alok_s?igsh=YzVkODRmOTdmMw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/alok-kumar-singh-08b49718a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/aloksingh9693"target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Resume-ALOK-KUMAR-SINGH-1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Your Email"required>
+                        <textarea name="Message"  rows="10"placeholder="ypur message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © portfolio . Made by Alok ❤️ Singh</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontants = document.getElementsByClassName("tab-contants");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontant of tabcontants){
+        tabcontant.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+sidemenu.style.right ="0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzFSLCtOlbBCVkhLPU2kgAHysXJldlJ7XgKEk_EocBHfj69MxR2-lzNKpX1fbQSUEB_Rg/exec'
+    const form = document.forms['submit-to-google-sheet'] 
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            } ,5000 )
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
